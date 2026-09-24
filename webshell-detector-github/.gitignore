@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Trained artifacts
+models/
+models_v2/
+
+# Sample data — never commit real webshells to a public repo
+data/webshell/*
+data/benign/*
+data/variants/*
+check/*
+!data/webshell/.gitkeep
+!data/benign/.gitkeep
+!data/variants/.gitkeep
+!check/.gitkeep
+
+# Reports
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
