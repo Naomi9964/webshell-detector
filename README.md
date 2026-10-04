@@ -52,7 +52,7 @@ webshell-detector/
 Requires Python 3.10+.
 
 ```bash
-git clone https://github.com/<your-username>/webshell-detector.git
+git clone https://github.com/Naomi9964/webshell-detector.git
 cd webshell-detector
 pip install -r requirements.txt
 ```
